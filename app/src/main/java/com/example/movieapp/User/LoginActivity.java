@@ -137,13 +137,18 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(LoginActivity.this, SignupActivity.class));
+
+
+
+
             }
         });
 
         forgotPassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(LoginActivity.this, ForgotPasswordActivity.class));
+//                startActivity(new Intent(LoginActivity.this, ForgotPasswordActivity.class));
+                startActivity(new Intent(LoginActivity.this,HomeActivity.class));
             }
         });
 

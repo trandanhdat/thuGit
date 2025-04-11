@@ -121,6 +121,7 @@ public class UploadVideoActivity extends AppCompatActivity implements AdapterVie
         }
     }
     public void uploadFileToFirebase(View v){
+
         if(text_video_selected.getText().equals("No Video Selected")){
             Toast.makeText(this,"please selected an video!",Toast.LENGTH_SHORT).show();
         }else{

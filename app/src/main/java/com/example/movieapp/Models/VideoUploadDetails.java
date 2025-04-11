@@ -45,7 +45,7 @@ public class VideoUploadDetails {
     }
 
     public void setVideo_url(String video_url) {
-        video_url = video_url;
+        this.video_url = video_url;
     }
 
     public String getVideo_name() {
